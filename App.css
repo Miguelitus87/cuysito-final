@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.NavBar{
+  background-color: rgb(0, 162, 255);
+  padding-top: 20px;  
+  background-image: url("./media/cuisebart3.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.NavBarTitulos{
+  padding-left: 20px;
+}
+
+.Buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ItemCountB{
+  display: flex;
+  flex-direction: row;
+}
+
+.ItemCount{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  padding: 10px;
+}
+
+.ItemListContainer{
+  
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffc107;
+  height: 100%;
+  width: 100%;
+}
+
+.ItemList{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.Item{
+  margin-bottom: 10px;
+  width: calc((100% - 50px) / 4);
+  background-color: rgb(0, 162, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #ffc107;
+}
+
+.cuysito{
+  display: block;
+  width: 550px;
+  color:#ffc107;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+
+.ItemDetailContainer{
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffc107;
+}
+
+.ItemDetail{
+  width: 100%;
+  background-color: rgb(0, 162, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffc107;
+}
+
+.ItemDetail{
+  display: flex;
+}
+
+
+.ItemCarrito{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  text-align: left;
+}
